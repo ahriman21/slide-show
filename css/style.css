@@ -1,0 +1,65 @@
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cycle-slideshow{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.slide {
+    position: relative;
+}
+
+.slide-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+}
+
+.slide img{
+    display: block;
+}
+
+
+
+.cycle-prev,.cycle-next{
+    position: absolute;
+    background-color:rgba(0, 0, 0, .5);
+    color: aliceblue;
+    padding: 10px;
+    z-index: 1000;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.cycle-next{
+    right: 2%;
+    top: 40%;
+}
+
+.cycle-prev{
+    left: 2%;
+    top: 40%;
+}
+
+.cycle-pager{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 1000;
+    padding: 15px 0;
+}
+
+.cycle-pager-active {
+    color: white;
+}
